@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wallpapers_names">
+        <item>Blue Water 1</item>
+        <item>Blue Water 2</item>
+        <item>Reef 1</item>
+        <item>Reef 2</item>
+        <item>Reef 3</item>
+        <item>Rendered</item>
+    </string-array>
+</resources>

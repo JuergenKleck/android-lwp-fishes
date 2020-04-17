@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thumbnail="@mipmap/ic_launcher"
+    android:description="@string/description"
+/>
+<!-- This causes a crash at the moment - either fix or switch to OpenGLES 2 rendering which will benefit all other games
+    android:settingsActivity="info.simplyapps.lwp.fishes.preference.FishesSettings"
+-->
