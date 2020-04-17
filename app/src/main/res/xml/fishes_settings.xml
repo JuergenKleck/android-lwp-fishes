@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:title="@string/app_name_settings"
+	app:key="fisheslwpprefs">
+
+	<PreferenceCategory
+		app:key="fishtype"
+		app:title="@string/setting_summary_fishtype">
+
+		<CheckBoxPreference
+			android:key="fish_neon"
+			android:title="@string/fishesenum_neon"
+			android:defaultValue="false" />
+
+		<CheckBoxPreference
+			android:key="fish_bluetang"
+			android:title="@string/fishesenum_bluetang"
+			android:defaultValue="false" />
+
+		<CheckBoxPreference
+			android:key="fish_discus"
+			android:title="@string/fishesenum_discus"
+			android:defaultValue="false" />
+
+		<CheckBoxPreference
+			android:key="fish_cichlid"
+			android:title="@string/fishesenum_cichlid"
+			android:defaultValue="false" />
+
+	</PreferenceCategory>
+
+
+	<PreferenceCategory
+		app:key="additionalsettings"
+		app:title="@string/settings_additional">
+
+		<CheckBoxPreference
+			android:key="swim_school"
+			android:title="@string/setting_title_swim_school"
+			android:summary="@string/setting_summary_swim_school" />
+
+		<CheckBoxPreference
+			android:key="swim_realistic"
+			android:title="@string/setting_title_realistic"
+			android:summary="@string/setting_summary_realistic" />
+
+		<SeekBarPreference
+			app:key="swim_speed"
+			app:min="10"
+			app:defaultValue="75"
+			android:max="100"
+			app:title="@string/setting_summary_speed" />
+
+		<ListPreference
+			android:entries="@array/wallpapers_names"
+			android:entryValues="@array/wallpapers_values"
+			android:title="@string/wallpaper_select"
+			android:key="wallpaper_list">
+
+		</ListPreference>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fishes Live Wallpaper</string>
+    <string name="app_name_settings">Fishes Live Wallpaper - Settings</string>
+    <string name="description">Fishes swimming in the ocean</string>
+    <string name="setting_summary_fishtype">Change the fish type</string>
+    <string name="setting_title_speed">Fish speed</string>
+    <string name="setting_summary_speed">Adjust the fish swimming speed</string>
+    <string name="setting_title_realistic">Swim realistic</string>
+    <string name="setting_summary_realistic">More natural swimming</string>
+    <string name="setting_title_swim_school">Swim together</string>
+    <string name="setting_summary_swim_school">All fish swim in a group</string>
+    <string name="fishesenum_neon">Neons</string>
+    <string name="fishesenum_bluetang">Blue Tang</string>
+    <string name="fishesenum_discus">Discus</string>
+    <string name="fishesenum_cichlid">Cichlid</string>
+    <string name="wallpaper_select">Select wallpaper</string>
+    <string name="settings_additional">Additional settings</string>
+</resources>
