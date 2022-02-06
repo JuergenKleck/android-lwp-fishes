@@ -4,5 +4,5 @@
     android:description="@string/description"
 />
 <!-- This causes a crash at the moment - either fix or switch to OpenGLES 2 rendering which will benefit all other games
-    android:settingsActivity="info.simplyapps.lwp.fishes.preference.FishesSettings"
+    android:settingsActivity="com.juergenkleck.android.lwp.fishes.preference.FishesSettings"
 -->
